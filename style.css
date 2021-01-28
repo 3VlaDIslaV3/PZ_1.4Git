@@ -244,7 +244,43 @@ span.psw {
 
 }
 .hrl{
-    background-color:#f44336;
+    background-color:#8e00cf;
     height: 3px;
 }
+#car{
+    font-weight: bold;
+    color: #404fd8;
+    font-size: 24px;
+}
 
+#oar{
+    font-weight: bold;
+    color: #bb0909;
+    font-size: 24px;
+}
+
+#wwb{
+    font-weight: bold;
+    color: #e04f0b;
+    font-size: 24px;
+}
+
+#mac{
+    font-weight: bold;
+    color: #dd8b0f;
+    font-size: 24px;
+}
+#sync{
+    font-weight: bold;
+    color: #c7bb13;
+    font-size: 24px;
+}
+
+#fin{
+    font-weight: bold;
+    color:lawngreen;
+    font-size: 24px;
+}
+.command{
+    font-weight: bold;
+}
