@@ -174,3 +174,13 @@ function numberDetector(number) {
     }
     return description;
 }
+
+function arrayTrick(array) {
+    array.reverse();
+    for (let i = 0; i < array.length; i++) {
+        if (!isNaN(Number.parseInt(array[i]))) {
+            array[i] *= array[i];
+        }
+    }
+    return array;
+}
