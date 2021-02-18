@@ -104,3 +104,25 @@ function magic2DArrayFunction() {
         console.log(newMagicArray);
     }, 2000);
 }
+
+function mathOperations(number1, number2, operationType) {
+    switch (operationType) {
+        case "Add":
+            return number1 + number2;
+        case "Sub":
+            return number1 - number2;
+        case "Mul":
+            return number1 * number2;
+        case "Div":
+            if(number2 == 0) {
+                alert("Can't divide by 0");
+                break;
+            }
+            else {
+                return number1 / number2;
+            }
+        default:
+            alert("Hello World");
+            break;
+    }
+}
