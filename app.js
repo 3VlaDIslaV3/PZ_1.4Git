@@ -1,4 +1,4 @@
-/*
+
 let n = 100;
 
 nextPrime:
@@ -9,9 +9,9 @@ for (let i = 2; i <= n; i++) {
   }
 
   console.log( i ); 
-}*/
+}
 
-/*2
+
 let i =0;
 do{
    
@@ -25,11 +25,10 @@ do{
 
 }
 while(i<=10)
-*/
 
-/*3
+
 for(let i = 0; i<=9;console.log(i++));
-*/
+
 
 
 function triangle(n) {
@@ -99,7 +98,7 @@ for (let i = 1; i <= a / 2; i++) {
 }
 console.log(romb(13))
 
-/*5
+
 let numb = 10000;
 let counter =0;
 while(numb>50){
@@ -108,9 +107,9 @@ while(numb>50){
 }
 console.log(numb);
 console.log(counter);
-*/
 
-/*6
+
+
 let mouth= (Number)(prompt("Enter number mounth"))
 switch(mouth){
   case 1:
@@ -164,16 +163,16 @@ switch(mouth){
    alert("Такого місяця не існує");
 
 }
-*/
 
 
-/*7
+
+
 let tempC = -40;
 let tempF =(9/5) * tempC + 32 ;
 alert(tempF);
-*/
 
-/*8
+
+
 let day= (Number)(prompt("Enter day week"))
 switch(day){
   case 1:
@@ -206,4 +205,3 @@ switch(day){
     default:
       alert("Немає такого дня");
 }
-*/
