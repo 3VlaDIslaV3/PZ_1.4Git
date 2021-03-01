@@ -1,0 +1,31 @@
+{
+  "name": "pz_1.4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "faker": "^5.4.0",
+    "gm": "^1.23.1",
+    "nodemon": "^2.0.7",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "play-sound": "^1.1.3",
+    "say": "^0.16.0",
+    "sound-play": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3VlaDIslaV3/PZ_1.4Git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3VlaDIslaV3/PZ_1.4Git/issues"
+  },
+  "homepage": "https://github.com/3VlaDIslaV3/PZ_1.4Git#readme"
+}
