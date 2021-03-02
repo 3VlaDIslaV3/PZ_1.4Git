@@ -11,6 +11,6 @@ class Task {
     }
 }
 
-let t1 = new Task('Выучить английский', 'Нужно выучить!', 'Jan 8, 2021','Feb 23, 2021' )
+let t1 = new Task('Learning NodeJS', 'Learning!', 'Jan 8, 2021','Feb 23, 2021' )
 console.log(t1)
 console.log(t1.subtask())
