@@ -1,8 +1,8 @@
 
 //#6
 let characters = [
-    {name: "Barney", age: 36},
-    {name: "Fred", age: 40}
+    {name: "Vlad", age: 20},
+    {name: "Oleg", age: 40}
 ];
 
 function pluck(array) {
@@ -10,4 +10,4 @@ function pluck(array) {
         .filter((value, index, self) => self.indexOf(value) === index)
 }
 
-console.log(pluck(characters)); //['Barney', 'Fred'];
+console.log(pluck(characters)); 
