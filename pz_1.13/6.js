@@ -1,5 +1,3 @@
-
-//#6
 let characters = [
     {name: "Vlad", age: 20},
     {name: "Oleg", age: 40}
